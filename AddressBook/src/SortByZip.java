@@ -2,8 +2,8 @@ import java.util.Comparator;
 
 public class SortByZip implements Comparator<Person>{
 	
-	public int compare(Person p1, Person p2) {
-		return p1.getZipCode().compareTo(p2.getZipCode());
+	public int compare(Person a, Person b) {
+		return a.getZipCode().compareTo(b.getZipCode());
 		
 	}
 
